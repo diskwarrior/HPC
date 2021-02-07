@@ -5,6 +5,7 @@ plugins:
     - jekyll-paginate
     - jekyll-feed
     - jekyll-remote-theme
+    - jekyll-analytics
 
 paginate: 3
 paginate_path: /blog/page:num
@@ -14,3 +15,9 @@ title: NREL HPC github.io
 collections:
     announcements:
         output: true
+
+# google analytics setup using nrel.hpc.training@gmail.com
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-189117140-1
+    anonymizeIp: false
